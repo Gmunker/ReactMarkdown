@@ -6,3 +6,7 @@
 @include foundation-everything;
 
 //components
+@import "components/editor";
+@import "components/markdown";
+@import "components/markup";
+@import "components/nav";

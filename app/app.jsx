@@ -2,6 +2,9 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var {Route, Router, IndexRoute, hashHistory} = require('react-router');
 
+var Editor = require('Editor');
+var Nav = require('Nav');
+
 //Load Foundation
 $(document).foundation();
 
@@ -9,6 +12,9 @@ $(document).foundation();
 require('style!css!sass!applicationStyles');
 
 ReactDOM.render(
-	<p>Boilerplate 3 project</p>,
+	<div>
+	<Nav />
+	<Editor />
+	</div>,
 	document.getElementById('app')
 	);
