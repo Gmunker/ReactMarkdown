@@ -18,7 +18,7 @@ handleNewText(text) {
   render() {
     return (
       <div className="mdEditor row">
-        <div className="container__title small-12 columns">
+        <div className="container__title small-12 columns small-centered">
           <h2>My Markdown App</h2>
           <p>Use this to create your markdown file for GitHub, then copy paste the "left" side into your README.md file.</p>
           <hr />

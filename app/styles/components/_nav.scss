@@ -1,0 +1,39 @@
+.top-bar {
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .fcc-flame-icon {
+    height: 75px;
+  }
+
+  .fcc-title {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+  .credits {
+    text-align: center;
+    h2 {
+      font-size: 12px;
+    }
+    .social-buttons {
+      display: flex;
+      a {
+        margin: 0;
+      }
+    }
+    padding: 0;
+  }
+
+
+
+  .nav-buttons {
+    display: flex;
+    .button {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+  }
+}
